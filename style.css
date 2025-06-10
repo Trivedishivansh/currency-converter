@@ -1,0 +1,46 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background:#ccd5ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background:#fefae0;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #faedcd;
+  border-radius: 8px;
+}
+
+button {
+  background-color: #d4a373;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2a9d8f;
+}
+
+.currency-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.currency-group select {
+  width: 45%;
+}
